@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "id": "My first page",
+      "isDefault": true
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
+    },
+    {
+      "id": "Page from blank",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFDEDE",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}
