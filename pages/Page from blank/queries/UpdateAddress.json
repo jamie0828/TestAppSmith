@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE public.\"address\" SET\n    \"address_id\" = 1,\n    \"address\" = '',\n    \"Address2\" = '',\n    \"District\" = '',\n    \"postal_code\" = '',\n    \"phone\" = ''\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

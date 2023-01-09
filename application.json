@@ -11,6 +11,10 @@
     {
       "id": "Page from blank",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
