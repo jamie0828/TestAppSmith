@@ -19,14 +19,14 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(a, b, c) => {\n  console.log(a, b, c);\n  return 'OK';\n}",
+      "body": "(a, b, c) => {\n  console.log(a, b, c);\n  showAlert('I  AM CALLED');\n  return 'OK';\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {},
         {},
         {}
       ],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -39,7 +39,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(a, b, c) => {\n  console.log(a, b, c);\n  return 'OK';\n}"
+      "(a, b, c) => {\n  console.log(a, b, c);\n  showAlert('I  AM CALLED');\n  return 'OK';\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
