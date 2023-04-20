@@ -21,12 +21,14 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FFDEDE",
+  "icon": "globe",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"
   },
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
