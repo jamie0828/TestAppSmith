@@ -23,10 +23,10 @@
   "color": "#FFDEDE",
   "icon": "globe",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
