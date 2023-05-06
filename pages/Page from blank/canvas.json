@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 880,
+          "bottomRow": 410,
           "containerStyle": "none",
           "snapRows": 85,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 78,
           "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -265,7 +265,7 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 110,
+                          "bottomRow": 120,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -308,6 +308,7 @@
                               "isDeprecated": false,
                               "rightColumn": 15,
                               "objectFit": "cover",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "o9sewrldp9",
                               "logBlackList": {
                                 "isVisible": true,
@@ -391,6 +392,7 @@
                               "isDeprecated": false,
                               "rightColumn": 57,
                               "textAlign": "LEFT",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "aegcez6wzh",
                               "logBlackList": {
                                 "isVisible": true,
@@ -439,8 +441,10 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
                               "fontSize": "1rem",
-                              "textStyle": "HEADING"
+                              "textStyle": "HEADING",
+                              "minDynamicHeight": 4
                             },
                             {
                               "boxShadow": "none",
@@ -478,6 +482,7 @@
                               "isDeprecated": false,
                               "rightColumn": 43,
                               "textAlign": "LEFT",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "kpb3dczrzz",
                               "logBlackList": {
                                 "isVisible": true,
@@ -526,8 +531,10 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
                               "fontSize": "1rem",
-                              "textStyle": "BODY"
+                              "textStyle": "BODY",
+                              "minDynamicHeight": 4
                             }
                           ],
                           "key": "gzeoinxp9m",
@@ -550,6 +557,7 @@
                       "backgroundColor": "white",
                       "isDeprecated": false,
                       "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "duu764ruvi",
                       "containerStyle": "card",
                       "isVisible": true,
@@ -557,7 +565,9 @@
                       "parentId": "bqulg04dxt",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "gzeoinxp9m",
@@ -576,9 +586,7 @@
                 }
               ],
               "privateWidgets": {
-                "Image1": true,
-                "Text1": true,
-                "Text2": true
+                "undefined": true
               },
               "key": "wctnkrnqca",
               "backgroundColor": "transparent",
@@ -608,6 +616,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page from blank",
         "deleted": false,

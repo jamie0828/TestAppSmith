@@ -453,7 +453,7 @@
               "rightColumn": 63,
               "textSize": "0.875rem",
               "widgetId": "2p2jvssw3s",
-              "tableData": "{{Query1.data}}/",
+              "tableData": "{{Query1.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -510,7 +510,7 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 },
                 "groupButton3": {
-                  "label": "More",
+                  "label": "More is changed",
                   "iconName": "more",
                   "id": "groupButton3",
                   "buttonType": "MENU",
@@ -562,6 +562,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 16.828125,
+              "dynamicTriggerPathList": [],
               "leftColumn": 2,
               "dynamicBindingPathList": [
                 {

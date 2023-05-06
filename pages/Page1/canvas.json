@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 78,
           "minHeight": 810,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -101,6 +101,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1683336900242,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -125,7 +126,11 @@
               "parentRowSpace": 10,
               "hideCard": false,
               "parentColumnSpace": 18.4375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "primaryColumns.action.onClick"
+                }
+              ],
               "borderWidth": "1",
               "primaryColumns": {
                 "step": {
@@ -147,7 +152,8 @@
                   "label": "step",
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
                   "validation": {},
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "sticky": ""
                 },
                 "task": {
                   "index": 1,
@@ -168,7 +174,8 @@
                   "label": "task",
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
                   "validation": {},
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "sticky": ""
                 },
                 "status": {
                   "index": 2,
@@ -189,7 +196,8 @@
                   "label": "status",
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
                   "validation": {},
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "sticky": ""
                 },
                 "action": {
                   "index": 3,
@@ -209,13 +217,14 @@
                   "isDisabled": false,
                   "isDerived": false,
                   "label": "action",
-                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+                  "onClick": "{{navigateTo('/', {}, 'SAME_WINDOW');}}",
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
                   "validation": {},
                   "labelColor": "#FFFFFF",
                   "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
                   "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                  "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+                  "sticky": ""
                 },
                 "customColumn1": {
                   "allowCellWrapping": false,
@@ -242,7 +251,8 @@
                   "computedValue": "",
                   "validation": {},
                   "buttonStyle": "rgb(3, 179, 101)",
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "sticky": ""
                 },
                 "customColumn2": {
                   "allowCellWrapping": false,
@@ -269,10 +279,12 @@
                   "computedValue": "",
                   "validation": {},
                   "buttonStyle": "rgb(3, 179, 101)",
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "sticky": ""
                 }
               },
               "key": "6yfe4jb1f1",
+              "canFreezeColumn": false,
               "isDeprecated": false,
               "rightColumn": 64,
               "textSize": "0.875rem",
